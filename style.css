@@ -16,6 +16,33 @@ body {
     height: 560px;
     border: solid pink;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.art{
+    width: 260px;
+    height: 560px;
+    margin: 10px;
+    border: solid red;
+    box-sizing: border-box;
+}
+
+.picture{
+    height: 160px;
+    width: 260px;
+}
+
+.description{
+    height: 160px;
+    width: 260px;
+    border: solid red;
+}
+
+.person{
+    height: 80px;
+    width: 260px;
+    border: solid red;
 }
 
 .instagram{
@@ -43,11 +70,35 @@ body {
     align-items: center;
 }
 
-.sub1, .sub2, .sub3{
-    border: solid white;
-    color: white;
-}
+
 
 .sub1{
     font-size: 70px;
+    border: solid white;
+    color: white;
+    margin: 10px;
+    }
+
+
+.email{
+    height: 50px;
+    width: 280px
+    border-radius: 20%
+     color: white;
+    border: solid white;
+    border-radius: 20%;
+    font-size: 20px;
+    background-color:transparent;
+    margin: 10px;
+}
+
+.submit{
+    height: 50px;
+    width: 180px;
+    background: #483D8B;
+    border-radius: 20%;
+    color: white;
+    font-size: 20px;
+    border: solid white;
+    margin: 10px;
 }
