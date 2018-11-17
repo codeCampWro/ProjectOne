@@ -9,12 +9,12 @@ body {
     height: 1000px;
     border: solid black;
     box-sizing: border-box;
+    font-family: 'Roboto'; 
 }
 
 .articles{
     width: 1920px;
     height: 560px;
-    border: solid pink;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -23,8 +23,7 @@ body {
 .art{
     width: 260px;
     height: 560px;
-    margin: 10px;
-    border: solid red;
+    margin: 15px;
     box-sizing: border-box;
 }
 
@@ -34,21 +33,36 @@ body {
 }
 
 .description{
-    height: 160px;
+    height: 180px;
     width: 260px;
-    border: solid red;
 }
 
 .person{
-    height: 80px;
+    height: 90px;
     width: 260px;
-    border: solid red;
+    display: flex;
+    align-items: center;
+}
+
+.pic{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+.h_martyna {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.h1_martyna {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .instagram{
     width: 1920px;
     height: 240px;
-    border: solid green;
     box-sizing: border-box;
     display: flex; 
 }
@@ -62,9 +76,8 @@ body {
 .subscribe{
     width:1920px;
     height: 200px;
-    border: solid red;
     box-sizing: border-box;
-    background-image: url(subcribe.jpg);
+    background-image: url(subscribe.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +87,6 @@ body {
 
 .sub1{
     font-size: 70px;
-    border: solid white;
     color: white;
     margin: 10px;
     }
@@ -99,6 +111,5 @@ body {
     border-radius: 20%;
     color: white;
     font-size: 20px;
-    border: solid white;
     margin: 10px;
 }
