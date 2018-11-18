@@ -96,7 +96,7 @@ body {
     height: 50px;
     width: 280px
     border-radius: 20%
-     color: white;
+    color: white;
     border: solid white;
     border-radius: 20%;
     font-size: 20px;
@@ -108,8 +108,9 @@ body {
     height: 50px;
     width: 180px;
     background: #483D8B;
+    border-color: #483D8B;
     border-radius: 20%;
-    color: white;
     font-size: 20px;
     margin: 10px;
+    color: white;
 }
