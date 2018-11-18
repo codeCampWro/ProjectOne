@@ -4,3 +4,698 @@ body {
     background-color: #f5f5f5;
 }
 
+.jakub {
+    font-family: "Roboto" , sans-serif;
+    background-color: rgba(255,255,255,0);
+    width: 1920px;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.jakub .jakub-outside {
+    position: relative;
+    background-color: rgb(33, 33, 33);
+    height: 540px;
+    width: 1170px;
+}
+
+.jakub-outside > .jakub-pages {
+    background-color: rgb(33, 33, 33);
+    position: absolute;
+    top: 50px;
+    bottom: 78px;
+    width: 271px;
+    height: 414px;
+}
+
+.jakub-pages > .jakub-pages-text {
+    position: relative;
+    font-weight: 800;
+    font-size: 13px;
+    left: 1px;
+    color: white;
+}
+
+.jakub-pages > .jakub-pages-home {
+    position: relative;
+    font-weight: 800;
+    font-size: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(117,117,117);
+    border-radius: 3px;
+    width: 271px;
+    height: 46px;
+    bottom: 4px;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jakub-pages-home > .jakub-pages-home-plus {
+    position: relative;
+    right: 16px;
+    font-weight: 800;
+    font-size: 14px;
+    height: 14px;
+    width: 14px;
+    color: rgb(189,189,189);
+    display: inline-block;
+}
+
+.jakub-pages-home > .jakub-pages-home-text {
+    position: relative;
+    left: 16px;
+    font-weight: 800;
+    font-size: 10px;
+    color: rgb(189,189,189);
+}
+
+.jakub-pages > .jakub-pages-pages {
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgb(117,117,117);
+    background-color: rgb(33, 33, 33);
+    width: 271px;
+    height: 171px;
+    border-radius: 3px;
+}
+
+.jakub-pages-pages > .jakub-pages-pages-pages {
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(117,117,117);
+}
+
+.jakub-pages-pages-pages > .jakub-pages-pages-pages-pages {
+    position: relative;
+    left: 16px;
+    font-weight: 800;
+    font-size: 10px;
+    color: rgb(189,189,189);
+    display: inline-block;
+}
+
+.jakub-pages-pages-pages > .jakub-pages-pages-pages-minus {
+    position: relative;
+    font-weight: 800;
+    font-size: 14px;
+    right: 16px;
+    color: rgb(189,189,189);
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+}
+
+.jakub-pages-pages-others p {
+    color: rgb(117,117,117);
+    position: relative;
+    left: 13px;
+    font-size: 10px;
+    line-height: 27px;
+}
+
+.jakub-pages > .jakub-pages-portfolio {
+    position: relative;
+    font-weight: 800;
+    font-size: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(117,117,117);
+    border-radius: 3px;
+    width: 271px;
+    height: 46px;
+    top: 4px;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jakub-pages-portfolio > .jakub-pages-portfolio-plus {
+    position: relative;
+    right: 16px;
+    font-weight: 800;
+    font-size: 14px;
+    height: 14px;
+    width: 14px;
+    color: rgb(189,189,189);
+    display: inline-block;
+}
+
+.jakub-pages-portfolio > .jakub-pages-portfolio-text {
+    position: relative;
+    left: 16px;
+    font-weight: 800;
+    font-size: 10px;
+    color: rgb(189,189,189);
+}
+
+.jakub-pages > .jakub-pages-blog {
+    position: relative;
+    font-weight: 800;
+    font-size: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(117,117,117);
+    border-radius: 3px;
+    width: 271px;
+    height: 46px;
+    top: 8px;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jakub-pages-blog > .jakub-pages-blog-plus {
+    position: relative;
+    right: 16px;
+    font-weight: 800;
+    font-size: 14px;
+    height: 14px;
+    width: 14px;
+    color: rgb(189,189,189);
+    display: inline-block;
+}
+
+.jakub-pages-blog > .jakub-pages-blog-text {
+    position: relative;
+    left: 16px;
+    font-weight: 800;
+    font-size: 10px;
+    color: rgb(189,189,189);
+}
+
+.jakub-pages > .jakub-pages-shop {
+    position: relative;
+    font-weight: 800;
+    font-size: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(117,117,117);
+    border-radius: 3px;
+    width: 271px;
+    height: 46px;
+    top: 12px;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jakub-pages-shop > .jakub-pages-shop-plus {
+    position: relative;
+    right: 16px;
+    font-weight: 800;
+    font-size: 14px;
+    height: 14px;
+    width: 14px;
+    color: rgb(189,189,189);
+    display: inline-block;
+}
+
+.jakub-pages-shop > .jakub-pages-shop-text {
+    position: relative;
+    left: 16px;
+    font-weight: 800;
+    font-size: 10px;
+    color: rgb(189,189,189);
+}
+
+
+.jakub-outside > .jakub-twitter {
+    background-color: rgb(33,33,33);
+    position: absolute;
+    top: 50px;
+    bottom: 209px;
+    left: 299px;
+    width: 273px;
+    height: 282px;
+}
+
+.jakub-twitter > .jakub-twitter-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 13px;
+    font-weight: 800;
+    color: white;
+    left: 1px;
+    
+}
+
+.jakub-twitter-text p {
+    position: relative;
+    left: 1px;
+}
+
+.jakub-twitter > .jakub-twitter-twitone {
+    position: relative;
+    height: 75px;
+    background-color: rgb(33, 33, 33);
+    bottom: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(117,117,117);
+    display: inline-block;
+    font-size: 10px;
+    width: 100%;
+}
+
+.jakub-twitter > .jakub-twitter-twittwo {
+    position: relative;
+    height: 75px;
+    background-color: rgb(33, 33, 33);
+    border-bottom: 1px solid rgb(117,117,117);
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 10px;
+    width: 100%;
+    top: 10px;
+}
+
+.jakub-twitter > .jakub-twitter-twitthree {
+    position: relative;
+    height: 61px;
+    background-color: rgb(33, 33, 33);
+    box-sizing: border-box;
+    font-size: 10px;
+    display: inline-block;
+    width: 100%;
+    top: 30px;
+}
+
+.jakub-twitter-twitone-text {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+.jakub-twitter-twittwo-text {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+.jakub-twitter-twitthree-text {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+.jakub-twitter i {
+    color: rgb(85,172,238);
+}
+
+.jakub-twitter-twitone-text {
+    color: rgb(117,117,117);
+}
+
+.jakub-twitter-twittwo-text {
+    color: rgb(117,117,117);
+}
+
+.jakub-twitter-twitthree-text {
+    color: rgb(117,117,117);
+}
+
+.jakub-twitter-twitone-other {
+    color: rgb(117,117,117);
+}
+
+.jakub-twitter-twittwo-other {
+    color: rgb(117,117,117);
+}
+
+.jakub-twitter-twitthree-other {
+    color: rgb(117,117,117);
+}
+
+.jakub-outside > .jakub-social {
+    background-color: rgb(33, 33, 33);
+    position: absolute;
+    top: 363px;
+    bottom: 108px;
+    height: 70px;
+    width: 267px;
+    left: 298px;
+}
+
+.jakub-social > .jakub-social-text {
+    font-size: 14px;
+    font-weight: 800;
+    position: relative;
+    color: white;
+    top: -15px;
+    left: 1px;
+    height: 14px;
+
+}
+
+.jakub-social > .jakub-social-facebook {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    background-color: rgb(59,89,153);
+    border-radius: 50px;
+}
+
+.jakub-social > .jakub-social-twitter {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    background-color: rgb(85,172,238);
+    left: 46px;
+    border-radius: 50px;
+}
+
+.jakub-social > .jakub-social-vk {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    background-color: rgb(75,117,163);
+    left: 92px;
+    border-radius: 50px;
+}
+
+.jakub-social > .jakub-social-pinterest {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    background-color: rgb(255,45,85);
+    right: 92px;
+    border-radius: 50px;
+}
+
+.jakub-social > .jakub-social-tumblr {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    background-color: rgb(51,69,93);
+    right: 46px;
+    border-radius: 50px;
+}
+
+.jakub-social > .jakub-social-dribbble {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    background-color: rgb(233,75,137);
+    right: 0px;
+    border-radius: 50px;
+}
+
+.jakub-social-tumblr > i {
+    position: relative;
+    left: 13px;
+    top: 10px;
+    width: 16px;
+    height: 17px;
+    color: white;
+}
+
+.jakub-social-pinterest > i {
+    position: relative;
+    left: 13px;
+    top: 10px;
+    width: 16px;
+    height: 17px;
+    color: white;
+}
+
+.jakub-social-vk > i {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 16px;
+    height: 17px;
+    color: white;
+}
+
+.jakub-social-twitter > i {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 16px;
+    height: 17px;
+    color: white;
+}
+
+.jakub-social-facebook > i {
+    position: relative;
+    left: 15px;
+    top: 10px;
+    width: 16px;
+    height: 17px;
+    color: white;
+}
+
+.jakub-social-dribbble > i {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 16px;
+    height: 17px;
+    color: white;
+}
+
+.jakub-outside > .jakub-flickr {
+    background-color: rgb(33, 33, 33);
+    position: absolute;
+    top: 50px;
+    bottom: 175px;
+    width: 271px;
+    height: 316px;
+    left: 600px;
+    display: inline-block;
+}
+
+.jakub-flickr > .jakub-flickr-text {
+    position: relative;
+    background-color: rgb(33,33,33);
+    font-size: 14px;
+    font-weight: 800;
+    color: white;
+    width: 270px;
+    height: 14px;
+    left: 1px;
+}
+
+.jakub-flickr-picseven {
+    position: absolute;
+    background-color: white;
+    width: 86px;
+    height: 86px;
+    top: 230px;
+    left: 0px;
+}
+
+.jakub-flickr-piceight {
+    position: absolute;
+    background-color: white;
+    width: 86px;
+    height: 86px;
+    top: 230px;
+    left: 93px;
+}
+
+.jakub-flickr-picnine {
+    position: absolute;
+    background-color: white;
+    width: 86px;
+    height: 86px;
+    top: 230px;
+    left: 185px;
+}
+
+.jakub-flickr-picsix {
+    position: absolute;
+    background-color: white;
+    width: 86px;
+    height: 86px;
+    top: 137px;
+    left: 185px;
+}
+
+.jakub-flickr-picfive {
+    position: absolute;
+    background-color: white;
+    width: 86px;
+    height: 86px;
+    top: 137px;
+    left: 93px;
+}
+
+.jakub-flickr-picfour {
+    position: absolute;
+    background-color: white;
+    width: 86px;
+    height: 86px;
+    top: 137px;
+    left: 0px;
+}
+
+.jakub-flickr-picthree {
+    position: absolute;
+    background-color: white;
+    width: 86px;
+    height: 86px;
+    top: 44px;
+    left: 185px;
+}
+
+.jakub-flickr-pictwo {
+    position: absolute;
+    background-color: white;
+    width: 86px;
+    height: 86px;
+    top: 44px;
+    left: 93px;
+}
+
+.jakub-flickr-picone {
+    position: absolute;
+    background-color: white;
+    width: 86px;
+    height: 86px;
+    top: 44px;
+    left: 0px;
+
+}
+
+.jakub-flickr-picone > img {
+    width: 86px;
+    height: 86px;
+}
+
+.jakub-flickr-pictwo > img {
+    width: 86px;
+    height: 86px;
+}
+
+.jakub-flickr-picthree > img {
+    width: 86px;
+    height: 86px;
+}
+
+.jakub-flickr-picfour > img {
+    width: 86px;
+    height: 86px;
+}
+
+.jakub-flickr-picfive > img {
+    width: 86px;
+    height: 86px;
+}
+
+.jakub-flickr-picsix > img {
+    width: 86px;
+    height: 86px;
+}
+
+.jakub-flickr-picseven > img {
+    width: 86px;
+    height: 86px;
+}
+
+.jakub-flickr-piceight > img {
+    width: 86px;
+    height: 86px;
+}
+
+.jakub-flickr-picnine > img {
+    width: 86px;
+    height: 86px;
+}
+
+.jakub-outside > .jakub-news {
+    background-color: rgb(33, 33, 33);
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    bottom: 166px;
+    width: 272px;
+    height: 325px;
+}
+
+.jakub-news > .jakub-news-text {
+    position: absolute;
+    background-color: rgb(33, 33, 33);
+    font-size: 14px;
+    font-weight: 800;
+    color: white;
+}
+
+.jakub-news > .jakub-news-name {
+    position: absolute;
+    width: 270px;
+    height: 46px;
+    background-color: rgb(33, 33, 33);
+    top: 44px;
+    border: 1px solid rgb(189,189,189);
+    border-radius: 3px;
+}
+
+.jakub-news-name p {
+    position: absolute;
+    font-size: 10px;
+    top: 7px;
+    color: rgb(117,117,117);
+    left: 16px;
+}
+
+.jakub-news > .jakub-news-email {
+    position: absolute;
+    width: 270px;
+    height: 46px;
+    background-color: rgb(33, 33, 33);
+    top: 101px;
+    border: 1px solid rgb(189,189,189);
+    border-radius: 3px;
+}
+
+.jakub-news-email p {
+    position: absolute;
+    font-size: 10px;
+    top: 7px;
+    color: rgb(117,117,117);
+    left: 16px;
+}
+
+.jakub-news > .jakub-news-message {
+    position: absolute;
+    width: 270px;
+    height: 121px;
+    background-color: rgb(33, 33, 33);
+    top: 156px;
+    border: 1px solid rgb(189,189,189);
+    border-radius: 3px;
+}
+
+.jakub-news-message p {
+    position: absolute;
+    font-size: 10px;
+    top: 7px;
+    color: rgb(117,117,117);
+    left: 16px;
+}
+
+.jakub-news > .jakub-news-subscribe {
+    position: absolute;
+    width: 272px;
+    height: 40px;
+    background-color: rgb(47,47,47);
+    top: 286px;
+    border-radius: 3px;
+}
+
+.jakub-news-subscribe p {
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    top: 7px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
