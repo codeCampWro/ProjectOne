@@ -12,72 +12,74 @@ body {
     font-family: 'Roboto'; 
 }
 
-.articles{
+.martyna_articles {
     width: 1920px;
     height: 560px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 
-.art{
+.martyna_art {
     width: 260px;
-    height: 560px;
+    height: 450px;
     margin: 15px;
     box-sizing: border-box;
+    box-shadow: 0 0 4px black;
 }
 
-.picture{
+.martyna_picture {
     height: 160px;
     width: 260px;
 }
 
-.description{
+.martyna_description {
     height: 180px;
     width: 260px;
 }
 
-.person{
+.martyna_person {
     height: 90px;
     width: 260px;
     display: flex;
     align-items: center;
 }
 
-.pic{
+.martyna_pic {
     height: 60px;
     width: 60px;
     border-radius: 100%;
 }
 
-.h_martyna {
+.martyna_h {
     font-size: 20px;
     font-weight: bold;
 }
 
-.h1_martyna {
+.martyna_h1 {
     font-size: 18px;
     font-weight: bold;
 }
 
-.instagram{
+.martyna_instagram {
     width: 1920px;
     height: 240px;
     box-sizing: border-box;
     display: flex; 
 }
 
-.box {
+.martyna_box {
     width: 240px;
     height: 240px;
     box-sizing: border-box;
 }
 
-.subscribe{
+.martyna_subscribe {
     width:1920px;
     height: 200px;
     box-sizing: border-box;
-    background-image: url(subscribe.jpg);
+    background-image: url(src/piotrowska/subscribe.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,31 +87,31 @@ body {
 
 
 
-.sub1{
+.martyna_sub1 {
     font-size: 70px;
     color: white;
     margin: 10px;
     }
 
 
-.email{
-    height: 50px;
-    width: 280px
+.martyna_email {
+    height: 45px;
+    width: 300px
     border-radius: 20%
     color: white;
     border: solid white;
-    border-radius: 20%;
+    border-radius: 25px;
     font-size: 20px;
     background-color:transparent;
     margin: 10px;
 }
 
-.submit{
+.martyna_submit{
     height: 50px;
     width: 180px;
     background: #483D8B;
     border-color: #483D8B;
-    border-radius: 20%;
+    border-radius: 25px;
     font-size: 20px;
     margin: 10px;
     color: white;
