@@ -50,7 +50,7 @@ body {
     justify-content: space-between;
 }
 
-#pages > .widget {
+#pages > .jakub-widget {
     border: 0px solid rgb(113,113,113);
     top: -10px;
 }
@@ -74,7 +74,6 @@ body {
     width: 271px;
     height: 125px;
     border-top: 1px solid rgb(113,113,113);
-    display: inline;
     color: rgb(113,113,113);
 }
 
@@ -104,27 +103,27 @@ body {
     top: 30px;
 }
 
-#twitter-social > .twitter {
+#twitter-social > .jakub-twitter {
     width: 273px;
     height: 282px;
     background-color: rgb(33,33,33);
     margin-bottom: 16px;
 }
 
-#twitter-social > .social {
+#twitter-social > .jakub-social {
     width: 273px;
     height: 70px;
     background-color: rgb(33,33,33);
     margin-top: 16px;
 }
 
-.widget {
+.jakub-widget {
     color: white;
     font-size: 14px;
     background-color: rgb(33,33,33);
 }
 
-.twitter > div {
+.jakub-twitter > div {
     height: 65px;
     box-sizing: border-box;
     border-bottom: 1px solid rgb(113,113,113);
@@ -134,32 +133,32 @@ body {
     color: rgb(189,189,189);
 }
 
-.twitter > div > i {
+.jakub-twitter > div > i {
     color: rgb(85,172,328);
     height: 10px;
     position: relative;
     top: 10px;
 }
 
-.twitter > .widget {
+.jakub-twitter > .jakub-widget {
     color: white;
     font-size: 14px;
     background-color: rgb(33,33,33);
     border-bottom: none;
 }
 
-.twitter > #twit-three {
+.jakub-twitter > #twit-three {
     border-bottom: none;
 }
 
-.smallwidgets {
+.jakub-smallwidgets {
     display: flex;
     background-color: rgb(33,33,33);
     justify-content: space-around;
     align-items: baseline;
 }
 
-.smallwidgets div {
+.jakub-smallwidgets div {
     display: flex;
     color: white;
     font-size: 14px;
@@ -196,7 +195,7 @@ body {
     background-color: #ea4c89;
 }
 
-.images {
+.jakub-images {
     background-color: rgb(33,33,33);
     display: flex;
     justify-content: space-between;
@@ -205,13 +204,13 @@ body {
     height: 272px;
 }
 
-.images > * {
+.jakub-images > * {
     background-color: blueviolet;
     width: 86px;
     height: 86px;
 }
 
-.windows > div {
+.jakub-windows > div {
     width: 272px;
     height: 46px;
     background-color: rgb(33,33,33);
@@ -231,7 +230,7 @@ body {
     align-items: flex-start;
 }
 
-.windows > div > p {
+.jakub-windows > div > p {
     margin-left: 8px;
 }
 
