@@ -24,20 +24,20 @@ body {
 .Sylwia-Picture{
 	border-top-left-radius:10px;
 	border-top-right-radius:10px;
-	background: url("0.jpg");
+	background: url("src/sylwia/0.jpg");
 	background-size:cover;
 	width:100%;
 	height:200px;
 	float:left;
 }
 .Sylwia-Author-Picture{
-	background: url("0a.jpg");
+	background: url("src/sylwia/0a.jpg");
 	float:left;
 	width:30px;
 	height:30px;
 	background-size:cover;
 	border-radius:50%;
-	margin: 5px 12px 0px 10px;
+	margin: 5px 12px 0 10px;
 }
 .Sylwia-Author-Date{
 	line-height:150%;
@@ -45,7 +45,7 @@ body {
 	font-size: x-small;
 }
 .Sylwia-Topic{
-	padding: 10px 10px 0px 10px;
+	padding: 10px 10px 0 10px;
 	font-size:20px;
 }
 .Sylwia-Description{
@@ -56,9 +56,9 @@ body {
 .Sylwia-Author{
 	margin:12px 0 0 5px;
 	box-sizing:border-box;
-	border-bottom-radius:10px;
+	border-radius:10px;
 	font-size: small;
-	font-weight: : bold;
+	font-weight: bold;
 }
 .Sylwia-Topic2, .Sylwia-Description2, .Sylwia-Author2{
 	box-sizing:border-box;
@@ -72,7 +72,7 @@ body {
 .Sylwia-Author2{
 	padding:8px 0 0 0;
 	font-size: small;
-	font-weight: : bold;
+	font-weight: bold;
 }
 .Sylwia-Description2{
 	padding:5px;
@@ -89,7 +89,7 @@ body {
 }
 .Sylwia-Content-Picture1{
 	position:relative;
-	background: url(".../Sylwia/1.jpg");
+	background: url("src/sylwia/1.jpg");
 	background-size:cover;
 	width:50%;
 	height:130px;
@@ -98,7 +98,7 @@ body {
 	border-bottom-left-radius:10px;
 }
 .Sylwia-Content-Picture2{
-	background: url("2.jpg");
+	background: url("src/sylwia/2.jpg");
 	background-size:cover;
 	width:50%;
 	height:130px;
@@ -107,7 +107,7 @@ body {
 	border-bottom-left-radius:10px;
 }
 .Sylwia-Content-Picture3{
-	background: url("3.jpg");
+	background: url("src/sylwia/3.jpg");
 	background-size:cover;
 	width:50%;
 	height:130px;
