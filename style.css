@@ -2,629 +2,483 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
 }
 
-.jakub {
-    font-family: "Roboto" , sans-serif;
-    background-color: rgba(255,255,255,0);
-    width: 1920px;
-    height: 540px;
+
+
+
+
+
+.Sylwia-Main-Box{
+    border-radius:10px;
+    width:1100px;
+    position:relative;
+    background:transparent;
+    margin: 50px auto;
+    height:1000px;
+}
+.Sylwia-Main-Content{
+    border-radius:10px;
+    position:relative;
+    width:100%;
+    height:320px;
+    background:white;
+    box-sizing:border-box;
+    margin: 0;
+}
+.Sylwia-Picture{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    background: url("src/sylwia/0.jpg");
+    background-size:cover;
+    width:100%;
+    height:200px;
+    float:left;
+}
+.Sylwia-Author-Picture{
+    background: url("src/sylwia/0a.jpg");
+    float:left;
+    width:30px;
+    height:30px;
+    background-size:cover;
+    border-radius:50%;
+    margin: 5px 12px 0 10px;
+}
+.Sylwia-Author-Date{
+    line-height:150%;
+    color:gray;
+    font-size: x-small;
+}
+.Sylwia-Topic{
+    padding: 10px 10px 0 10px;
+    font-size:20px;
+}
+.Sylwia-Description{
+    padding:5px;
+    border-bottom: 1px solid lightgray;
+    font-size:14px;
+}
+.Sylwia-Author{
+    margin:12px 0 0 5px;
+    box-sizing:border-box;
+    border-radius:10px;
+    font-size: small;
+    font-weight: bold;
+}
+.Sylwia-Topic2, .Sylwia-Description2, .Sylwia-Author2{
+    box-sizing:border-box;
+    width:550px;
+    float:left;
+}
+.Sylwia-Topic2{
+    padding:5px 0 0 5px;
+    font-size:18px;
+}
+.Sylwia-Author2{
+    padding:8px 0 0 0;
+    font-size: small;
+    font-weight: bold;
+}
+.Sylwia-Description2{
+    padding:5px;
+    font-size:14px;
+    border-bottom: 1px solid lightgray;
+}
+.Sylwia-Content{
+    position:relative;
+    margin:20px 0 20px 0;
+    width:100%;
+    height:130px;
+    background:white;
+    border-radius:10px;
+}
+.Sylwia-Content-Picture1{
+    position:relative;
+    background: url("src/sylwia/1.jpg");
+    background-size:cover;
+    width:50%;
+    height:130px;
+    float:left;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.Sylwia-Content-Picture2{
+    background: url("src/sylwia/2.jpg");
+    background-size:cover;
+    width:50%;
+    height:130px;
+    float:left;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.Sylwia-Content-Picture3{
+    background: url("src/sylwia/3.jpg");
+    background-size:cover;
+    width:50%;
+    height:130px;
+    float:left;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+
+
+
+
+
+.martyna{
+    width: 100%;
+    height: auto;
+    border: solid black;
+    box-sizing: border-box;
+    font-family: Roboto sans-serif;
+}
+
+.martyna_articles {
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
-
+    background-color: white;
 }
 
-.jakub-outside {
-    position: relative;
-    background-color: rgb(33, 33, 33);
+.martyna_art {
+    width: 260px;
+    height: 450px;
+    margin: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px black;
+}
+
+.martyna_picture {
+    height: 160px;
+    width: 260px;
+}
+
+.martyna_description {
+    height: 180px;
+    width: 260px;
+}
+
+.martyna_person {
+    height: 90px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+}
+
+.martyna_pic {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+.martyna_h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.martyna_h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.martyna_instagram {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.martyna_box {
+    width: 12.5%;
+    height: auto;
+    box-sizing: border-box;
+    object-fit: none;
+}
+
+.martyna_subscribe {
+    width:100%;
+    height: 200px;
+    box-sizing: border-box;
+    background-image: url(src/piotrowska/subscribe.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.martyna_sub1 {
+    font-size: 70px;
+    color: white;
+    margin: 10px;
+}
+
+
+.martyna_email {
+    height: 45px;
+    width: 300px;
+    color: white;
+    border: solid white;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color:transparent;
+    margin: 10px;
+}
+
+.martyna_submit{
+    height: 50px;
+    width: 180px;
+    background: #483D8B;
+    border-color: #483D8B;
+    border-radius: 25px;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+
+
+
+
+
+.jakub {
     height: 540px;
-    width: 1170px;
+    width: auto;
+    background-color: rgb(33,33,33);
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    color: rgb(189,189,189);
+    text-align: justify;
 }
 
-.jakub-pages {
-    background-color: rgb(33, 33, 33);
-    position: absolute;
+.jakub > div {
+    background-color: rgb(33,33,33);
+    height: 540px;
+    width: 1173px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jakub > div > * {
+    position: relative;
     top: 50px;
-    bottom: 78px;
+}
+
+#pages {
+    background-color: rgb(33,33,33);
     width: 271px;
     height: 414px;
 }
 
-.jakub-pages-text {
+#pages > div {
+    top: -10px;
     position: relative;
-    font-weight: 800;
-    font-size: 13px;
-    left: 1px;
-    color: white;
-}
-
-.jakub-pages-home {
-    position: relative;
-    font-weight: 800;
-    font-size: 10px;
-    box-sizing: border-box;
-    border: 1px solid rgb(117,117,117);
-    border-radius: 3px;
     width: 271px;
-    height: 46px;
-    bottom: 4px;
-    background-color: rgb(33, 33, 33);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#home-plus {
-    position: relative;
-    right: 16px;
-    font-weight: 800;
-    font-size: 14px;
-    height: 14px;
-    width: 14px;
-    color: rgb(189,189,189);
-    display: inline-block;
-}
-
-#home-text {
-    position: relative;
-    left: 16px;
-    font-weight: 800;
-    font-size: 10px;
-    color: rgb(189,189,189);
-}
-
-.jakub-pages-pages {
-    position: relative;
     box-sizing: border-box;
-    border: 1px solid rgb(117,117,117);
-    background-color: rgb(33, 33, 33);
-    width: 271px;
-    height: 171px;
+    border: 1px solid rgb(113,113,113);
     border-radius: 3px;
-}
-
-.jakub-pages-pages-pages {
-    display: flex;
-    height: 44px;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid rgb(117,117,117);
-}
-
-#pages-text {
-    position: relative;
-    left: 16px;
-    font-weight: 800;
-    font-size: 10px;
-    color: rgb(189,189,189);
-    display: inline-block;
-}
-
-#pages-minus {
-    position: relative;
-    font-weight: 800;
-    font-size: 14px;
-    right: 16px;
-    color: rgb(189,189,189);
-    display: inline-block;
-    height: 14px;
-    width: 14px;
-}
-
-.jakub-pages-pages-others p {
-    color: rgb(117,117,117);
-    position: relative;
-    left: 13px;
-    font-size: 10px;
-    line-height: 27px;
-}
-
-.jakub-pages > .jakub-pages-portfolio {
-    position: relative;
-    font-weight: 800;
-    font-size: 10px;
-    box-sizing: border-box;
-    border: 1px solid rgb(117,117,117);
-    border-radius: 3px;
-    width: 271px;
-    height: 46px;
-    top: 4px;
-    background-color: rgb(33, 33, 33);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#portfolio-plus {
-    position: relative;
-    right: 16px;
-    font-weight: 800;
-    font-size: 14px;
-    height: 14px;
-    width: 14px;
-    color: rgb(189,189,189);
-    display: inline-block;
-}
-
-#portfolio-text {
-    position: relative;
-    left: 16px;
-    font-weight: 800;
-    font-size: 10px;
-    color: rgb(189,189,189);
-}
-
-.jakub-pages-blog {
-    position: relative;
-    font-weight: 800;
-    font-size: 10px;
-    box-sizing: border-box;
-    border: 1px solid rgb(117,117,117);
-    border-radius: 3px;
-    width: 271px;
-    height: 46px;
-    top: 8px;
-    background-color: rgb(33, 33, 33);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#blog-plus {
-    position: relative;
-    right: 16px;
-    font-weight: 800;
-    font-size: 14px;
-    height: 14px;
-    width: 14px;
-    color: rgb(189,189,189);
-    display: inline-block;
-}
-
-#blog-text {
-    position: relative;
-    left: 16px;
-    font-weight: 800;
-    font-size: 10px;
-    color: rgb(189,189,189);
-}
-
-.jakub-pages-shop {
-    position: relative;
-    font-weight: 800;
-    font-size: 10px;
-    box-sizing: border-box;
-    border: 1px solid rgb(117,117,117);
-    border-radius: 3px;
-    width: 271px;
-    height: 46px;
-    top: 12px;
-    background-color: rgb(33, 33, 33);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#shop-plus {
-    position: relative;
-    right: 16px;
-    font-weight: 800;
-    font-size: 14px;
-    height: 14px;
-    width: 14px;
-    color: rgb(189,189,189);
-    display: inline-block;
-}
-
-#shop-text {
-    position: relative;
-    left: 16px;
-    font-weight: 800;
-    font-size: 10px;
-    color: rgb(189,189,189);
-}
-
-
-.jakub-twitter {
-    background-color: rgb(33,33,33);
-    position: absolute;
-    top: 50px;
-    bottom: 209px;
-    left: 299px;
-    width: 273px;
-    height: 282px;
-}
-
-.jakub-twitter-text {
-    display: flex;
-    justify-content: flex-start;
+    margin: 10px 0;
     align-items: flex-start;
-    font-size: 13px;
-    font-weight: 800;
-    color: white;
-    left: 1px;
-    
+    background-color: rgb(33,33,33);
+    display: flex;
+    justify-content: space-between;
 }
 
-.jakub-twitter-text p {
-    position: relative;
-    left: 1px;
+#pages > .jakub-widget {
+    border: 0 solid rgb(113,113,113);
+    top: -10px;
 }
 
-.jakub-twitter-twitone {
-    position: relative;
-    height: 75px;
-    background-color: rgb(33, 33, 33);
-    bottom: 10px;
-    box-sizing: border-box;
-    border-bottom: 1px solid rgb(117,117,117);
-    display: inline-block;
-    font-size: 10px;
-    width: 100%;
+#pages > div p {
+    padding: 0 5px;
 }
 
-.jakub-twitter-twittwo {
-    position: relative;
-    height: 75px;
-    background-color: rgb(33, 33, 33);
-    border-bottom: 1px solid rgb(117,117,117);
-    box-sizing: border-box;
-    display: inline-block;
-    font-size: 10px;
-    width: 100%;
-    top: 10px;
+#big-box {
+    height: 171px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.jakub-twitter-twitthree {
-    position: relative;
-    height: 61px;
-    background-color: rgb(33, 33, 33);
-    box-sizing: border-box;
-    font-size: 10px;
-    display: inline-block;
-    width: 100%;
-    top: 30px;
+#big-box-top {
+    height: 16px;
 }
 
-.jakub-twitter-twit-text {
-    position: relative;
-    bottom: 20px;
-    left: 20px;
-    color: rgb(117,117,117);
+#big-box-extension {
+    width: 271px;
+    height: 125px;
+    border-top: 1px solid rgb(113,113,113);
+    color: rgb(113,113,113);
 }
 
-.jakub-twitter i {
-    color: rgb(85,172,238);
+#twitter-social {
+    background-color: rgb(33,33,33);
+    width: 273px;
+    height: 384px;
 }
 
-.jakub-twitter-twit-other {
-    color: rgb(117,117,117);
-}
-
-.jakub-social {
-    background-color: rgb(33, 33, 33);
-    position: absolute;
-    top: 363px;
-    bottom: 108px;
-    height: 70px;
-    width: 267px;
-    left: 298px;
-}
-
-.jakub-social-text {
-    font-size: 14px;
-    font-weight: 800;
-    position: relative;
-    color: white;
-    top: -15px;
-    left: 1px;
-    height: 14px;
-
-}
-
-.jakub-social-facebook {
-    position: absolute;
-    width: 37px;
-    height: 37px;
-    background-color: rgb(59,89,153);
-    border-radius: 50px;
-}
-
-.jakub-social-twitter {
-    position: absolute;
-    width: 37px;
-    height: 37px;
-    background-color: rgb(85,172,238);
-    left: 46px;
-    border-radius: 50px;
-}
-
-.jakub-social-vk {
-    position: absolute;
-    width: 37px;
-    height: 37px;
-    background-color: rgb(75,117,163);
-    left: 92px;
-    border-radius: 50px;
-}
-
-.jakub-social-pinterest {
-    position: absolute;
-    width: 37px;
-    height: 37px;
-    background-color: rgb(255,45,85);
-    right: 92px;
-    border-radius: 50px;
-}
-
-.jakub-social-tumblr {
-    position: absolute;
-    width: 37px;
-    height: 37px;
-    background-color: rgb(51,69,93);
-    right: 46px;
-    border-radius: 50px;
-}
-
-.jakub-social-dribbble {
-    position: absolute;
-    width: 37px;
-    height: 37px;
-    background-color: rgb(233,75,137);
-    right: 0px;
-    border-radius: 50px;
-}
-
-.jakub-social-tumblr > i {
-    position: relative;
-    left: 13px;
-    top: 10px;
-    width: 16px;
-    height: 17px;
-    color: white;
-}
-
-.jakub-social-pinterest > i {
-    position: relative;
-    left: 13px;
-    top: 10px;
-    width: 16px;
-    height: 17px;
-    color: white;
-}
-
-.jakub-social-vk > i {
-    position: relative;
-    left: 10px;
-    top: 10px;
-    width: 16px;
-    height: 17px;
-    color: white;
-}
-
-.jakub-social-twitter > i {
-    position: relative;
-    left: 10px;
-    top: 10px;
-    width: 16px;
-    height: 17px;
-    color: white;
-}
-
-.jakub-social-facebook > i {
-    position: relative;
-    left: 15px;
-    top: 10px;
-    width: 16px;
-    height: 17px;
-    color: white;
-}
-
-.jakub-social-dribbble > i {
-    position: relative;
-    left: 10px;
-    top: 10px;
-    width: 16px;
-    height: 17px;
-    color: white;
-}
-
-.jakub-flickr {
-    background-color: rgb(33, 33, 33);
-    position: absolute;
-    top: 50px;
-    bottom: 175px;
+#flickr {
+    background-color: rgb(33,33,33);
     width: 271px;
     height: 316px;
-    left: 600px;
-    display: inline-block;
 }
 
-.jakub-flickr-text {
-    position: relative;
+#news {
     background-color: rgb(33,33,33);
-    font-size: 14px;
-    font-weight: 800;
-    color: white;
-    width: 270px;
-    height: 14px;
-    left: 1px;
-}
-
-.jakub-flickr-picseven {
-    position: absolute;
-    background-color: white;
-    width: 86px;
-    height: 86px;
-    top: 230px;
-    left: 0px;
-}
-
-.jakub-flickr-piceight {
-    position: absolute;
-    background-color: white;
-    width: 86px;
-    height: 86px;
-    top: 230px;
-    left: 93px;
-}
-
-.jakub-flickr-picnine {
-    position: absolute;
-    background-color: white;
-    width: 85px;
-    height: 86px;
-    top: 230px;
-    left: 185px;
-}
-
-.jakub-flickr-picsix {
-    position: absolute;
-    background-color: white;
-    width: 86px;
-    height: 86px;
-    top: 137px;
-    left: 185px;
-}
-
-.jakub-flickr-picfive {
-    position: absolute;
-    background-color: white;
-    width: 86px;
-    height: 86px;
-    top: 137px;
-    left: 93px;
-}
-
-.jakub-flickr-picfour {
-    position: absolute;
-    background-color: white;
-    width: 86px;
-    height: 86px;
-    top: 137px;
-    left: 0px;
-}
-
-.jakub-flickr-picthree {
-    position: absolute;
-    background-color: white;
-    width: 86px;
-    height: 86px;
-    top: 44px;
-    left: 185px;
-}
-
-.jakub-flickr-pictwo {
-    position: absolute;
-    background-color: white;
-    width: 86px;
-    height: 86px;
-    top: 44px;
-    left: 93px;
-}
-
-.jakub-flickr-picone {
-    position: absolute;
-    background-color: white;
-    width: 86px;
-    height: 86px;
-    top: 44px;
-    left: 0px;
-
-}
-
-.jakub-flickr img {
-    width: 86px;
-    height: 86px;
-}
-
-.jakub-news {
-    background-color: rgb(33, 33, 33);
-    position: absolute;
-    right: 0px;
-    top: 50px;
-    bottom: 166px;
     width: 272px;
     height: 325px;
 }
 
-.jakub-news-text {
-    position: absolute;
-    background-color: rgb(33, 33, 33);
+#twitter-social {
+    display: inline;
+}
+
+#twitter-social > div {
+    top: 30px;
+}
+
+#twitter-social > .jakub-twitter {
+    width: 273px;
+    height: 282px;
+    background-color: rgb(33,33,33);
+    margin-bottom: 16px;
+}
+
+#twitter-social > .jakub-social {
+    width: 273px;
+    height: 70px;
+    background-color: rgb(33,33,33);
+    margin-top: 16px;
+}
+
+.jakub-widget {
+    color: white;
     font-size: 14px;
+    background-color: rgb(33,33,33);
+}
+
+.jakub-twitter > div {
+    height: 65px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(113,113,113);
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    color: rgb(189,189,189);
+}
+
+.jakub-twitter > div > i {
+    color: rgb(85,172,328);
+    height: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.jakub-twitter > .jakub-widget {
+    color: white;
+    font-size: 14px;
+    background-color: rgb(33,33,33);
+    border-bottom: none;
+}
+
+.jakub-twitter > #twit-three {
+    border-bottom: none;
+}
+
+.jakub-smallwidgets {
+    display: flex;
+    background-color: rgb(33,33,33);
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.jakub-smallwidgets div {
+    display: flex;
+    color: white;
+    font-size: 14px;
+    background-color: teal;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#fb {
+    background-color: #3b5999;
+}
+
+#tw {
+    background-color: rgb(85,172,328);
+}
+
+#vk {
+    background-color: #4c75a3;
+}
+
+#pi {
+    background-color: #ff2e56;
+}
+
+#tu {
+    background-color: #34465d;
+}
+
+#dr {
+    background-color: #ea4c89;
+}
+
+.jakub-images {
+    background-color: rgb(33,33,33);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 272px;
+}
+
+.jakub-images > * {
+    background-color: blueviolet;
+    width: 86px;
+    height: 86px;
+}
+
+.jakub-windows > div {
+    width: 272px;
+    height: 46px;
+    background-color: rgb(33,33,33);
+    margin: 5px 0 5px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(113,113,113);
+    border-radius: 3px;
+    color: rgb(113,113,113);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+#big-window {
+    height: 121px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.jakub-windows > div > p {
+    margin-left: 8px;
+}
+
+#subscription {
+    display: flex;
+    justify-content: center;
     font-weight: 800;
     color: white;
-}
-
-.jakub-news-name {
-    position: absolute;
-    width: 270px;
-    height: 46px;
-    background-color: rgb(33, 33, 33);
-    top: 44px;
-    border: 1px solid rgb(189,189,189);
-    border-radius: 3px;
-}
-
-.jakub-news-name p {
-    position: absolute;
-    font-size: 10px;
-    top: 7px;
-    color: rgb(117,117,117);
-    left: 16px;
-}
-
-.jakub-news-email {
-    position: absolute;
-    width: 270px;
-    height: 46px;
-    background-color: rgb(33, 33, 33);
-    top: 101px;
-    border: 1px solid rgb(189,189,189);
-    border-radius: 3px;
-}
-
-.jakub-news-email p {
-    position: absolute;
-    font-size: 10px;
-    top: 7px;
-    color: rgb(117,117,117);
-    left: 16px;
-}
-
-.jakub-news-message {
-    position: absolute;
-    width: 270px;
-    height: 121px;
-    background-color: rgb(33, 33, 33);
-    top: 156px;
-    border: 1px solid rgb(189,189,189);
-    border-radius: 3px;
-}
-
-.jakub-news-message p {
-    position: absolute;
-    font-size: 10px;
-    top: 7px;
-    color: rgb(117,117,117);
-    left: 16px;
-}
-
-.jakub-news-subscribe {
-    position: absolute;
-    width: 272px;
-    height: 40px;
-    background-color: rgb(47,47,47);
-    top: 286px;
-    border-radius: 3px;
-}
-
-.jakub-news-subscribe p {
-    position: absolute;
-    font-size: 10px;
-    font-weight: bold;
-    top: 7px;
-    width: 100%;
-    text-align: center;
-    color: white;
+    background-color: rgb(132,132,132);
+    border: none;
+    font-size: 12px;
 }
