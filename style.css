@@ -6,7 +6,7 @@ body {
 
 .jakub {
     height: 540px;
-    width: 1920px;
+    width: auto;
     background-color: rgb(33,33,33);
     display: flex;
     justify-content: center;
@@ -43,7 +43,7 @@ body {
     box-sizing: border-box;
     border: 1px solid rgb(113,113,113);
     border-radius: 3px;
-    margin: 10px 0px;
+    margin: 10px 0;
     align-items: flex-start;
     background-color: rgb(33,33,33);
     display: flex;
@@ -51,12 +51,12 @@ body {
 }
 
 #pages > .jakub-widget {
-    border: 0px solid rgb(113,113,113);
+    border: 0 solid rgb(113,113,113);
     top: -10px;
 }
 
 #pages > div p {
-    padding: 0px 5px;
+    padding: 0 5px;
 }
 
 #big-box {
@@ -199,7 +199,6 @@ body {
     background-color: rgb(33,33,33);
     display: flex;
     justify-content: space-between;
-    align-items: space-between;
     flex-wrap: wrap;
     height: 272px;
 }
@@ -214,7 +213,7 @@ body {
     width: 272px;
     height: 46px;
     background-color: rgb(33,33,33);
-    margin: 5px 0px 5px 0px;
+    margin: 5px 0 5px 0;
     box-sizing: border-box;
     border: 1px solid rgb(113,113,113);
     border-radius: 3px;
